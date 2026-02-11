@@ -1,0 +1,33 @@
+const images = [
+  "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=400&q=80",
+  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&q=80",
+  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80",
+  "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=400&q=80",
+  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80",
+  "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&q=80",
+  "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=400&q=80",
+  "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&q=80",
+];
+
+const PastWorkCarousel = () => {
+  return (
+    <section className="py-20 overflow-hidden">
+      <div className="container mx-auto px-4 mb-12">
+        <p className="text-sm text-accent uppercase tracking-widest mb-2">Our portfolio</p>
+        <h2 className="text-3xl md:text-5xl font-bold text-foreground font-display">Past work highlights</h2>
+      </div>
+
+      <div className="flex animate-scroll-left-slow">
+        {[...images, ...images].map((src, i) => (
+          <div key={i} className="flex-shrink-0 mx-3">
+            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden">
+              <img src={src} alt="Project" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default PastWorkCarousel;
