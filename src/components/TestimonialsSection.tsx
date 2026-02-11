@@ -2,13 +2,13 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Buildio transformed our outdated office into a modern, inspiring workspace. The team's attention to detail and creative vision exceeded all expectations.",
+    quote: "RB Enterprises transformed our outdated office into a modern, inspiring workspace. The team's attention to detail and creative vision exceeded all expectations.",
     name: "Sarah Mitchell",
     role: "Interior Design Client",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
   },
   {
-    quote: "From the initial consultation to the final walkthrough, the process was seamless. Our home feels like a luxury retreat now thanks to the Buildio team.",
+    quote: "From the initial consultation to the final walkthrough, the process was seamless. Our home feels like a luxury retreat now thanks to the RB Enterprises team.",
     name: "James Rodriguez",
     role: "Residential Architecture",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
@@ -20,7 +20,7 @@ const testimonials = [
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
   },
   {
-    quote: "Working with Buildio was an absolute pleasure. They listened to our needs, respected our budget, and delivered a result that blew us away. Highly recommend!",
+    quote: "Working with RB Enterprises was an absolute pleasure. They listened to our needs, respected our budget, and delivered a result that blew us away. Highly recommend!",
     name: "David Thompson",
     role: "Residential Client",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",

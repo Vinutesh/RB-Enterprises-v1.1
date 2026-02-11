@@ -8,6 +8,8 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import TeamSection from "@/components/TeamSection";
 import FAQSection from "@/components/FAQSection";
 import FooterCTA from "@/components/FooterCTA";
+import ProcessSection from "@/components/ProcessSection";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -17,11 +19,13 @@ const Index = () => {
       <PastWorkCarousel />
       <AboutSection />
       <ServicesSection />
+      <ProcessSection />
       <ProjectsSection />
       <TestimonialsSection />
       <TeamSection />
       <FAQSection />
       <FooterCTA />
+      <WhatsAppButton />
     </main>
   );
 };

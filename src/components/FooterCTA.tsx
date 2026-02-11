@@ -1,37 +1,37 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const FooterCTA = () => {
   return (
     <>
-      {/* CTA */}
-      <section className="py-24">
+      <section className="py-20 md:py-24">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground font-display mb-6 max-w-3xl mx-auto">
-            Let's create a space you'll love
+          <h2 className="mx-auto mb-6 max-w-3xl font-display text-3xl font-bold text-foreground md:text-5xl lg:text-6xl">
+            Ready to build a smarter, more beautiful space?
           </h2>
-          <p className="text-muted-foreground mb-8 max-w-xl mx-auto text-lg">
-            Ready to transform your vision into reality? Get in touch with our team for a free consultation.
+          <p className="mx-auto mb-8 max-w-2xl text-base text-muted-foreground md:text-lg">
+            Share your requirements and our team will respond with consultation slots, project timelines, and a practical execution plan.
           </p>
-          <Button size="lg" className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90 px-10 text-lg">
-            Get a free quote!
+          <Button asChild size="lg" className="rounded-full bg-accent px-10 text-lg text-accent-foreground hover:bg-accent/90">
+            <Link to="/contact">Get a free quote</Link>
           </Button>
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="border-t border-border py-12">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <a href="#" className="text-2xl font-bold text-foreground">
-              Buildio<span className="text-accent">*</span>
-            </a>
-            <div className="flex items-center gap-8">
-              <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">About</a>
-              <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Services</a>
-              <a href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Projects</a>
-              <a href="#testimonials" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Testimonials</a>
+          <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
+            <Link to="/" className="inline-flex items-center gap-3" aria-label="RB Enterprises home">
+              <img src="/rb-logo.svg" alt="RB Enterprises logo" className="h-12 w-auto" loading="lazy" />
+              <span className="text-lg font-semibold text-foreground">RB Enterprises</span>
+            </Link>
+            <div className="flex items-center gap-6 md:gap-8">
+              <a href="#about" className="text-sm text-muted-foreground transition-colors hover:text-foreground">About</a>
+              <a href="#services" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Services</a>
+              <a href="#projects" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Projects</a>
+              <a href="#testimonials" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Testimonials</a>
             </div>
-            <p className="text-sm text-muted-foreground">© 2026 Buildio. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2026 RB Enterprises. All rights reserved.</p>
           </div>
         </div>
       </footer>
