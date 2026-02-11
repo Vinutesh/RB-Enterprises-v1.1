@@ -11,17 +11,17 @@ const images = [
 
 const PastWorkCarousel = () => {
   return (
-    <section className="py-20 overflow-hidden">
-      <div className="container mx-auto px-4 mb-12">
-        <p className="text-sm text-accent uppercase tracking-widest mb-2">Our portfolio</p>
-        <h2 className="text-3xl md:text-5xl font-bold text-foreground font-display">Past work highlights</h2>
+    <section className="overflow-hidden py-16 md:py-20">
+      <div className="container mx-auto mb-10 px-4">
+        <p className="mb-2 text-sm uppercase tracking-widest text-accent">Our portfolio</p>
+        <h2 className="font-display text-3xl font-bold text-foreground md:text-5xl">Past work highlights</h2>
       </div>
 
       <div className="flex animate-scroll-left-slow">
         {[...images, ...images].map((src, i) => (
-          <div key={i} className="flex-shrink-0 mx-3">
-            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden">
-              <img src={src} alt="Project" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+          <div key={i} className="mx-2 flex-shrink-0 md:mx-3">
+            <div className="h-36 w-36 overflow-hidden rounded-full border border-border md:h-52 md:w-52">
+              <img src={src} alt="Project" className="h-full w-full object-cover transition-transform duration-500 hover:scale-110" loading="lazy" />
             </div>
           </div>
         ))}

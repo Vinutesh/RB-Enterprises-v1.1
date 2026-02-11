@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="RB Enterprises Logo">
+  <defs>
+    <linearGradient id="towerBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10A0D7"/>
+      <stop offset="100%" stop-color="#1578C8"/>
+    </linearGradient>
+    <linearGradient id="towerTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#69CBD2"/>
+      <stop offset="100%" stop-color="#2AA4BF"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(110 18)">
+    <path d="M14 30l95-24v270l-14 9V55l-68 18v197l-13 8V30z" fill="url(#towerBlue)"/>
+    <path d="M32 81l54-34v225l-12 7V66L32 94v-13z" fill="url(#towerTeal)"/>
+
+    <path d="M86 92l72-40v222l-14 10V74l-45 25v179l-13 8V92z" fill="url(#towerBlue)"/>
+    <path d="M105 124c15-16 30-24 50-29v165l-11 7V111c-12 4-23 10-34 22l-5-9z" fill="#69CBD2"/>
+
+    <path d="M2 210c26 91 161 97 224 19-20 48-62 90-121 102C55 341 1 304 2 242c0-11 2-22 6-32z" fill="#F68B1F"/>
+    <path d="M26 216c27 67 127 77 182 24-30 39-73 63-119 63-34 0-66-11-87-33 4-19 12-37 24-54z" fill="#47AAC6" opacity="0.95"/>
+  </g>
+
+  <g transform="translate(58 308)">
+    <path d="M0 0h136v28H33v24h88v28H33v54H0V0z" fill="#F5222D"/>
+    <path d="M130 42h105v26h-46c-1 22-8 40-20 53 17 7 33 10 49 10h18v3H114l-52-52h82c13 0 24-5 30-14h-44V42z" fill="#231F20"/>
+    <path d="M248 0h92c35 0 58 19 58 49 0 16-7 29-20 37 14 8 22 22 22 40 0 34-24 56-62 56h-90V0zm33 27v39h52c11 0 18-8 18-19 0-12-7-20-19-20h-51zm0 65v43h55c13 0 22-9 22-21 0-13-8-22-22-22h-55z" fill="#231F20"/>
+    <path d="M130 12h110v8H130zM0 134h33v8H0zM260 172h80v8h-80z" fill="#59BECB"/>
+  </g>
+</svg>

@@ -30,7 +30,7 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="py-24 bg-secondary/30">
+    <section id="faq" className="bg-secondary/30 py-20 md:py-24">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
           <p className="text-sm text-accent uppercase tracking-widest mb-2">FAQ</p>
